@@ -17,19 +17,19 @@ public class Visita {
 	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "codigoVisita")
-	private int codigoVisita;
+    @Column(name = "codigo_visita")
+	private Integer codigoVisita;
     
     @Column(name = "nombre")
 	private String nombre;
     
-    @Column(name = "fechaVisita")
-	private String fechaVisita;
+    @Column(name = "fecha")
+	private String fecha;
     
     @Column(name = "observaciones")
 	private String observaciones;
     
-    @Column(name = "estadoVisita")
-	private String estadoVisita;
+    @Column(name = "estado")
+	private String estado;
 
 }

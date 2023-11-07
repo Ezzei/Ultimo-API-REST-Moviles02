@@ -17,16 +17,16 @@ public class Cliente {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "codigoCliente")
-    private int codigoCliente;
+    @Column(name = "codigo_cliente")
+    private Integer codigoCliente;
     
-    @Column(name = "nombreCompleto")
+    @Column(name = "nombre_completo")
     private String nombreCompleto;
     
-    @Column(name = "tipoDocumento")
+    @Column(name = "tipo_documento")
     private String tipoDocumento;
     
-    @Column(name = "numeroDocumento")
+    @Column(name = "numero_documento")
     private String numeroDocumento;
     
     @Column(name = "correo")
@@ -35,7 +35,7 @@ public class Cliente {
     @Column(name = "telefono")
     private String telefono;
     
-    @Column(name = "direccionEntrega")
+    @Column(name = "direccion_entrega")
     private String direccionEntrega;
 }
 
